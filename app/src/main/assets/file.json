@@ -1,0 +1,570 @@
+[
+  {
+    "category": "Science: Mathematics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the derivative of Acceleration with respect to time?",
+    "correct_answer": "Jerk",
+    "incorrect_answers": [
+      "Shift",
+      "Bump",
+      "Slide"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the game &quot;The Sims&quot;, how many Simoleons does each family start with?",
+    "correct_answer": "20,000",
+    "incorrect_answers": [
+      "10,000",
+      "15,000",
+      "25,000"
+    ]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "When Gmail first launched, how much storage did it provide for your email?",
+    "correct_answer": "1GB",
+    "incorrect_answers": [
+      "512MB",
+      "5GB",
+      "Unlimited"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which movie contains the quote, &quot;Say hello to my little friend!&quot;?",
+    "correct_answer": "Scarface",
+    "incorrect_answers": [
+      "Reservoir Dogs",
+      "Heat",
+      "Goodfellas"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+    "correct_answer": "Tog II",
+    "incorrect_answers": [
+      "M4 Sherman",
+      "Tiger H1",
+      "T-34"
+    ]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Paul McCartney has always used his middle name. What is his real first name? ",
+    "correct_answer": "James",
+    "incorrect_answers": [
+      "John",
+      "Jack",
+      "Justin"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which country is completely landlocked by South Africa?",
+    "correct_answer": "Lesotho",
+    "incorrect_answers": [
+      "Swaziland",
+      "Botswana",
+      "Zimbabwe"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "The 2010 film &quot;The Social Network&quot; is a biographical drama film about MySpace founder Tom Anderson.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Donald J. Trump&#039;s Middle Name is...",
+    "correct_answer": "John",
+    "incorrect_answers": [
+      "Jeff",
+      "Jerald",
+      "Jason"
+    ]
+  },
+  {
+    "category": "Science: Mathematics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the first Mersenne prime exponent over 1000?",
+    "correct_answer": "1279",
+    "incorrect_answers": [
+      "2203",
+      "1009",
+      "1069"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "A defibrillator is used to start up a heartbeat once a heart has stopped beating.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of the following car models has been badge-engineered (rebadged) the most?",
+    "correct_answer": "Isuzu Trooper",
+    "incorrect_answers": [
+      "Holden Monaro",
+      "Suzuki Swift",
+      "Chevy Camaro"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these countries is NOT located in Africa?",
+    "correct_answer": "Suriname",
+    "incorrect_answers": [
+      "Burkina Faso",
+      "Mozambique",
+      "Algeria"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who created the 2011 Video Game &quot;Minecraft&quot;?",
+    "correct_answer": "Markus Persson",
+    "incorrect_answers": [
+      "Jens Bergensten",
+      "Daniel Rosenfeld",
+      "Carl Manneh"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Ewan McGregor did not know the name of the second prequel film of Star Wars during and after filming.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "TF2: What code does Soldier put into the door keypad in &quot;Meet the Spy&quot;?",
+    "correct_answer": "1111",
+    "incorrect_answers": [
+      "1432",
+      "1337",
+      "No code"
+    ]
+  },
+  {
+    "category": "Animals",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The average lifespan of a wildcat is only around 5-6 years. ",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+    "correct_answer": "Reactivity",
+    "incorrect_answers": [
+      "Health",
+      "Flammability",
+      "Radioactivity"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which car did not appear in the 2002 Lego Game: Drome Racers?",
+    "correct_answer": "Wasp",
+    "incorrect_answers": [
+      "Raptor",
+      "Hornet",
+      "Behemoth"
+    ]
+  },
+  {
+    "category": "Entertainment: Books",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the name of the protagonist of J.D. Salinger&#039;s novel Catcher in the Rye?",
+    "correct_answer": "Holden Caulfield",
+    "incorrect_answers": [
+      "Fletcher Christian",
+      "Jay Gatsby",
+      "Randall Flagg"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Amsterdam Centraal station is twinned with what station?",
+    "correct_answer": "London Liverpool Street",
+    "incorrect_answers": [
+      "Frankfurt (Main) Hauptbahnhof",
+      "Paris Gare du Nord",
+      "Brussels Midi"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "6",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+    "correct_answer": "FME-7",
+    "incorrect_answers": [
+      "VRC7",
+      "VRC6",
+      "MMC5"
+    ]
+  },
+  {
+    "category": "Entertainment: Television",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of these Disney shows is classified as an anime?",
+    "correct_answer": "Stitch!",
+    "incorrect_answers": [
+      "Cory in the House",
+      "The Emperor&#039;s New School",
+      "Hannah Montana"
+    ]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In what year did &quot;Bob Ross&quot; die?",
+    "correct_answer": "1995",
+    "incorrect_answers": [
+      "1986",
+      "1989",
+      "1997"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which ones of these Mario Kart games was made for the Gameboy Advance?",
+    "correct_answer": "Mario Kart: Super Circuit",
+    "incorrect_answers": [
+      "Mario Kart: Double Dash",
+      "Mario Kart 64",
+      "Super Mario Kart"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the name of the game developer who created &quot;Call Of Duty: Zombies&quot;?",
+    "correct_answer": "Treyarch",
+    "incorrect_answers": [
+      "Sledgehammer Games",
+      "Infinity Ward",
+      "Naughty Dog"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen&#039;s Site B?",
+    "correct_answer": "Isla Sorna",
+    "incorrect_answers": [
+      "Isla Nublar",
+      "Isla Pena",
+      "Isla Muerta"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What was the original release date of Grand Theft Auto V?",
+    "correct_answer": "September 17, 2013",
+    "incorrect_answers": [
+      "August 17, 2013",
+      "April 14, 2015",
+      "November 18, 2014"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Psychology is the science of behavior and mind.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Pneumonoultramicroscopicsilicovolcanoconiosis is a synonym for the disease known as silicosis.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who designed the Chupa Chups logo?",
+    "correct_answer": "Salvador Dali",
+    "incorrect_answers": [
+      "Pablo Picasso",
+      "Andy Warhol",
+      "Vincent van Gogh"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "When did construction of the Suez Canal finish?",
+    "correct_answer": "1869",
+    "incorrect_answers": [
+      "1859",
+      "1860",
+      "1850"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "&quot;Foodfight!&quot; earned less than $80,000 at box office.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+    "correct_answer": "American Pie",
+    "incorrect_answers": [
+      "Kentucky Rain",
+      "I Will Always Love You",
+      "Rock &#039;n&#039; Roll Suicide"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What character is NOT apart of the Grand Theft Auto series?",
+    "correct_answer": "Michael Cardenas",
+    "incorrect_answers": [
+      "Packie McReary",
+      "Tommy Vercetti",
+      "Lester Crest"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What date is referenced in the 1971 song &quot;September&quot; by Earth, Wind &amp; Fire?",
+    "correct_answer": "21st of September",
+    "incorrect_answers": [
+      "26th of September",
+      "23rd of September",
+      "24th of September"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "When someone is inexperienced they are said to be what color?",
+    "correct_answer": "Green",
+    "incorrect_answers": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ]
+  },
+  {
+    "category": "Entertainment: Television",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which of these Nickelodeon game shows aired first?",
+    "correct_answer": "Double Dare",
+    "incorrect_answers": [
+      "Nick Arcade",
+      "Finders Keepers",
+      "Nickelodeon Guts"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "When someone is cowardly, they are said to have what color belly?",
+    "correct_answer": "Yellow",
+    "incorrect_answers": [
+      "Green",
+      "Red",
+      "Blue"
+    ]
+  },
+  {
+    "category": "Entertainment: Cartoon & Animations",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+    "correct_answer": "Mermaid Transformation",
+    "incorrect_answers": [
+      "Artificial Gills",
+      "Bubble Head",
+      "Bubble Shield"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "In the game &quot;Until Dawn&quot; Emily is the only playable character who can be killed by another playable character directly.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Entertainment: Japanese Anime & Manga",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who is the main character in One Piece?",
+    "correct_answer": "Luffy",
+    "incorrect_answers": [
+      "Shanks",
+      "Zoro",
+      "Smoker"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Science: Mathematics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philospher?",
+    "correct_answer": "Bertrand Russel",
+    "incorrect_answers": [
+      "Francis Bacon",
+      "John Locke",
+      "Alfred North Whitehead"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Is Tartu the capital of Estonia?",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Books",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the name of the town in which Lily and James Potter are buried?",
+    "correct_answer": "Godric&#039;s Hollow",
+    "incorrect_answers": [
+      "Hogsmeade",
+      "Ottery St. Catchpole",
+      "Little Hangleton"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In &quot;Xenoblade Chronicles 2&quot;, Which party member cannot use normal blades?",
+    "correct_answer": "Tora",
+    "incorrect_answers": [
+      "Rex",
+      "Zeke",
+      "Nia"
+    ]
+  },
+  {
+    "category": "Entertainment: Comics",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What&#039;s the race of Invincible&#039;s father?",
+    "correct_answer": "Viltrumite",
+    "incorrect_answers": [
+      "Kryptonian",
+      "Kree",
+      "Irken"
+    ]
+  }
+]
