@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
+import android.text.Html
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -217,7 +218,7 @@ class MainScreen: AppCompatActivity() {
             json=inptstrm.bufferedReader().use{it.readText()}
             var jsonArray=JSONArray(json)
                 val jsnobj=jsonArray.getJSONObject(i)
-                val question: String = jsnobj.getString("question")
+                val question: String = Html.fromHtml(jsnobj.getString("question")).toString();
                 val incorrectAnswer = jsnobj.getJSONArray("incorrect_answers")
                 val correctAnswer = jsnobj.getString("correct_answer")
                 val arrayList = ArrayList<String>()
