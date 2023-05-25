@@ -9,16 +9,13 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.Volley
-import com.google.gson.JsonArray
 import kotlin.random.Random
-import okhttp3.OkHttpClient
 import org.json.JSONArray
 import java.io.IOException
 import java.io.InputStream
-import java.net.URL
 
+
+@Suppress("NAME_SHADOWING")
 class MainScreen: AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     private var num=1
@@ -83,7 +80,7 @@ class MainScreen: AppCompatActivity() {
         opt4.text=ques[num-1].incorrectAnswer[2]
         val listOfbtns=listOfButtons(opt1, opt2, opt3, opt4)
         for(i in 0..3){
-            listOfbtns.get(i).setBackgroundColor(Color.BLACK)
+            listOfbtns[i].setBackgroundColor(Color.BLACK)
         }
 
         for(i in 0..3){
@@ -98,13 +95,13 @@ class MainScreen: AppCompatActivity() {
                 val index2: Int = Random.nextInt(0, 4)
                 swap(randomize, index1, index2)
                 quest.text = ques[num - 1].question
-                listOfbtns.get(randomize[0]).text = ques[num - 1].incorrectAnswer[0]
-                listOfbtns.get(randomize[1]).text = ques[num - 1].incorrectAnswer[1]
-                listOfbtns.get(randomize[2]).text = ques[num - 1].correctAnswer
-                listOfbtns.get(randomize[3]).text = ques[num - 1].incorrectAnswer[2]
+                listOfbtns[randomize[0]].text = ques[num - 1].incorrectAnswer[0]
+                listOfbtns[randomize[1]].text = ques[num - 1].incorrectAnswer[1]
+                listOfbtns[randomize[2]].text = ques[num - 1].correctAnswer
+                listOfbtns[randomize[3]].text = ques[num - 1].incorrectAnswer[2]
                 for (i in 0..3) {
-                    listOfbtns.get(i).setBackgroundColor(Color.BLACK)
-                    listOfbtns.get(i).isClickable = true
+                    listOfbtns[i].setBackgroundColor(Color.BLACK)
+                    listOfbtns[i].isClickable = true
                 }
             }
             catch (e:IndexOutOfBoundsException){
@@ -114,17 +111,17 @@ class MainScreen: AppCompatActivity() {
         subbtn.setOnClickListener {
             if (btnclicked) {
                 if (selectedOption == ques[num - 1].correctAnswer) {
-                    listOfbtns.get(selectedbtn).setBackgroundColor(Color.GREEN)
+                    listOfbtns[selectedbtn].setBackgroundColor(Color.GREEN)
                     Toast.makeText(this, "Correct Answer", Toast.LENGTH_SHORT).show()
                     scr++
                     score.text = "$scr"
                 } else {
-                    listOfbtns.get(selectedbtn).setBackgroundColor(Color.RED)
+                    listOfbtns[selectedbtn].setBackgroundColor(Color.RED)
                     Toast.makeText(this, "Wrong Answer", Toast.LENGTH_SHORT).show()
                 }
 
                 for (i in 0..3) {
-                    listOfbtns.get(i).isClickable = false
+                    listOfbtns[i].isClickable = false
                 }
             }
             else{
@@ -138,7 +135,7 @@ class MainScreen: AppCompatActivity() {
             btn.isClickable=false
             fnsbtn.isClickable=false
             for (i in 0..3) {
-                listOfbtns.get(i).isClickable = false
+                listOfbtns[i].isClickable = false
             }
              finalscr="$scr"
             editor.putString("finalstr",finalscr)
@@ -153,16 +150,16 @@ class MainScreen: AppCompatActivity() {
             val index2: Int = Random.nextInt(0, 4)
             swap(randomize, index1, index2)
             quest.text = ques[num - 1].question
-            listOfbtns.get(randomize[0]).text = ques[num - 1].incorrectAnswer[0]
-            listOfbtns.get(randomize[1]).text = ques[num - 1].incorrectAnswer[1]
-            listOfbtns.get(randomize[2]).text = ques[num - 1].correctAnswer
-            listOfbtns.get(randomize[3]).text = ques[num - 1].incorrectAnswer[2]
+            listOfbtns[randomize[0]].text = ques[num - 1].incorrectAnswer[0]
+            listOfbtns[randomize[1]].text = ques[num - 1].incorrectAnswer[1]
+            listOfbtns[randomize[2]].text = ques[num - 1].correctAnswer
+            listOfbtns[randomize[3]].text = ques[num - 1].incorrectAnswer[2]
             subbtn.isClickable=true
             btn.isClickable=true
             fnsbtn.isClickable=true
             for (i in 0..3) {
-                listOfbtns.get(i).isClickable = true
-                listOfbtns.get(i).setBackgroundColor(Color.BLACK)
+                listOfbtns[i].isClickable = true
+                listOfbtns[i].setBackgroundColor(Color.BLACK)
             }
         }
         val gtshrd: SharedPreferences=getSharedPreferences("fnlscr", MODE_PRIVATE)
@@ -178,52 +175,53 @@ class MainScreen: AppCompatActivity() {
         return listofbtns
     }
     private fun getselctedOption(list: ArrayList<Button>,i: Int){
-        list.get(i).setOnClickListener {
-            list.get(i).setBackgroundColor(Color.YELLOW)
+        list[i].setOnClickListener {
+            list[i].setBackgroundColor(Color.YELLOW)
             selectedbtn=i
-            selectedOption=list.get(i).text.toString()
+            selectedOption= list[i].text.toString()
             btnclicked=true
+
             if(i==0){
-                list.get(i+1).setBackgroundColor(Color.BLACK)
-                list.get(i+2).setBackgroundColor(Color.BLACK)
-                list.get(i+3).setBackgroundColor(Color.BLACK)
+                list[1].setBackgroundColor(Color.BLACK)
+                list[2].setBackgroundColor(Color.BLACK)
+                list[3].setBackgroundColor(Color.BLACK)
             }
             if(i==1){
-                list.get(i-1).setBackgroundColor(Color.BLACK)
-                list.get(i+1).setBackgroundColor(Color.BLACK)
-                list.get(i+2).setBackgroundColor(Color.BLACK)
+                list[0].setBackgroundColor(Color.BLACK)
+                list[2].setBackgroundColor(Color.BLACK)
+                list[3].setBackgroundColor(Color.BLACK)
             }
             if(i==2){
-                list.get(i-2).setBackgroundColor(Color.BLACK)
-                list.get(i-1).setBackgroundColor(Color.BLACK)
-                list.get(i+1).setBackgroundColor(Color.BLACK)
+                list[0].setBackgroundColor(Color.BLACK)
+                list[1].setBackgroundColor(Color.BLACK)
+                list[3].setBackgroundColor(Color.BLACK)
             }
             if(i==3){
-                list.get(i-3).setBackgroundColor(Color.BLACK)
-                list.get(i-2).setBackgroundColor(Color.BLACK)
-                list.get(i-1).setBackgroundColor(Color.BLACK)
+                list[0].setBackgroundColor(Color.BLACK)
+                list[1].setBackgroundColor(Color.BLACK)
+                list[2].setBackgroundColor(Color.BLACK)
             }
         }
     }
-    fun swap(arr: IntArray, index1: Int, index2: Int) {
+    private fun swap(arr: IntArray, index1: Int, index2: Int) {
         val temp = arr[index1]
         arr[index1] = arr[index2]
         arr[index2] = temp
     }
-    fun readjson(i: Int, name: String): functionality{
-        var json: String?=null
+    private fun readjson(i: Int, name: String): functionality{
+        val json: String?
         var data: functionality?=null
         try{
             val inptstrm: InputStream=assets.open(name)
             json=inptstrm.bufferedReader().use{it.readText()}
-            var jsonArray=JSONArray(json)
+            val jsonArray=JSONArray(json)
                 val jsnobj=jsonArray.getJSONObject(i)
-                val question: String = Html.fromHtml(jsnobj.getString("question")).toString();
-                val incorrectAnswer = jsnobj.getJSONArray("incorrect_answers")
-                val correctAnswer = jsnobj.getString("correct_answer")
+                val question: String = Html.fromHtml(jsnobj.getString("question")).toString()
+                val incorrectAnswer =  jsnobj.getJSONArray("incorrect_answers")
+                val correctAnswer =   Html.fromHtml(jsnobj.getString("correct_answer")).toString()
                 val arrayList = ArrayList<String>()
                 for (i in 0 until incorrectAnswer.length()){
-                    val element=incorrectAnswer.getString(i)
+                    val element= Html.fromHtml(incorrectAnswer.getString(i)).toString()
                     arrayList.add(element)
                 }
                 val que = functionality( question, arrayList, correctAnswer)
